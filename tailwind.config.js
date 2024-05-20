@@ -9,7 +9,25 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        asosiy: '#168BDC',
+        ikkinchi: '#48D4DD',
+        oq: 'rgba(255, 255, 255, 0.7)',
+        kok: 'rgba(9, 151, 124, 0.1)',
+      },
+      fontFamily:{
+        montserrat: ['Montserrat', 'sans-serif']
+      }
+    },
+    screens: {
+      xs: '480px',
+      ss: '620px',
+      sm: '768px',
+      md: '1060px',
+      ls: '1200px',
+      xl: '1700px'
+    }
   },
   plugins: [],
 }
