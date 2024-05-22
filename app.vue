@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import {styles} from '@/util/style';
-
-console.log(styles); 
+import { styles } from '@/util/style';
 
 </script>
 
@@ -13,7 +11,7 @@ console.log(styles);
   <div class="bg-asosiy w-full overflow-hidden font-montserrat">
     
     <div :class="[styles.padding]">
-      <p class="text-white">Navbar</p>
+      <p class="text-white xs:text-rose-600 text-oq">Navbar</p>
     </div>
 
   </div>
