@@ -11,4 +11,9 @@ export const styles = {
 
     flexCenter: "flex justify-center item-center",
     flexStart: "flex justify-center item-start",
+
+    paragraph: "font-montserrat font-normal text-oq text-[18px] leading-[30.8px]",
+    heading: "",
+
+    test: "bg-red-500"
 }

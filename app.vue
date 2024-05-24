@@ -16,8 +16,8 @@ import { styles } from '@/util/style';
       </div>
     </div>
 
-    <div class="bg-slate-500 container">
-      <p>
+    <div class="bg-slate-500 container ">
+      <p :class="[styles.paragraph]">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugit numquam repudiandae accusantium, temporibus voluptatum nostrum quis ducimus! Pariatur quam, qui labore rem omnis consectetur totam accusamus alias excepturi. Ullam?
       </p>
     </div>
