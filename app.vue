@@ -10,7 +10,8 @@ import { styles } from '@/util/style';
   <div class="bg-asosiy w-full overflow-hidden font-montserrat">
     
     <div :class="[styles.padding]">
-      <div class="container">
+      <!-- <div class="container"> -->
+      <div :class="[styles.container]">
         <p class="xs:text-rose-600 md:text-white">Navbar</p>
       </div>
     </div>
