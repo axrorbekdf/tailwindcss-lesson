@@ -11,7 +11,7 @@ import { styles } from '@/util/style';
     
     <div :class="[styles.padding]">
       <!-- <div class="container"> -->
-      <div :class="[styles.container]">
+      <div :class="[styles.container, 'container', styles.flexCenter]">
         <p class="xs:text-rose-600 md:text-white">Navbar</p>
       </div>
     </div>
